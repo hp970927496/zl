@@ -1,18 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent" android:padding="10dp">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
     <ImageView
         android:layout_width="100dp"
         android:layout_height="60dp"
-        android:layout_gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
         android:src="@drawable/calendar_note"
         android:id="@+id/main_gridView_image"/>
+
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="3dp"
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:gravity="center_horizontal"
+        android:layout_alignLeft="@id/main_gridView_image"
+        android:layout_below="@id/main_gridView_image"
+        android:layout_marginTop="-5dp"
         android:text="分类显示"
+        android:textSize="13sp"
+        android:textColor="#FFF"
         android:id="@+id/main_gridView_text"/>
-</LinearLayout>
+</RelativeLayout>

@@ -3,4 +3,14 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="main_gridView_one">#6EA4EA</color>
+    <color name="main_gridView_two">#FD7965</color>
+    <color name="main_gridView_three">#CB8EBF</color>
+    <color name="main_gridView_four">#F2A33C</color>
+    <color name="main_gridView_five">#53BCB5</color>
+    <color name="main_gridView_six">#A3BD1C</color>
+    <color name="main_gridView_seven">#e6cd13</color>
+    <color name="themeColor">#11cd6e</color>
+    <color name="backGround">#F2F1EF</color>
+    <color name="bottom_color">#7C7C7C</color>
 </resources>

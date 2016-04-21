@@ -4,7 +4,7 @@
     <!--填充的颜色-->
     <solid android:color="#FFF"></solid>
     <!--圆角半径-->
-    <corners android:radius="10dp"></corners>
+    <corners android:radius="8dp"></corners>
     <!--内边距-->
     <padding android:bottom="5dp" android:right="5dp"
         android:top="5dp" android:left="5dp"/>

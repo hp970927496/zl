@@ -2,6 +2,7 @@ package com.hcy.adapter;
 
 
 import android.content.Context;
+import android.graphics.Color;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -17,6 +18,8 @@ import com.hcy.zhangshangtao.R;
 public class MainGridViewAdapter extends BaseAdapter{//主页GridView适配器
     public int[] images=new int[6];
     public String[] text=new String[6];
+
+    public String[] color={"#6EA4EA","#FD7965","#CB8EBF","#F2A33C","#53BCB5","#A3BD1C","#e6cd13"};
     public Context context;
 
     public MainGridViewAdapter(Context context) {
@@ -54,6 +57,7 @@ public class MainGridViewAdapter extends BaseAdapter{//主页GridView适配器
 //        //显示数据
 //        viewHolder.imageView.setImageResource(images[position]);
 //        viewHolder.textView.setText(text[position]);
+        viewHolder.textView.setBackgroundColor(Color.parseColor(color[position]));
         return convertView;
     }
 
